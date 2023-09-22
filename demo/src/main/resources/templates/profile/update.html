@@ -58,9 +58,11 @@ main{
         <br/>
         비밀번호 : <a href="/leave">비밀번호 변경하기</a>
         <br/>
+        <!-- 닉네임 수정 폼 -->
         <label for="nickname">닉네임 :</label>
-        <input type="text" id="nickname" name="name" th:value="${dto.nickname}">
+        <input type="text" id="nickname" name="newNickname" th:value="${dto.nickname}">
         <br/>
+
         생년월일 : <span th:text="${dto.birth}"></span>
         <br/>
         <label>휴대폰 :</label>
